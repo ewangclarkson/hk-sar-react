@@ -1,0 +1,6 @@
+export const SectorLevel = {
+    SECTOR:"SECTOR",
+    MINOR_SECTOR:"MINOR_SECTOR",
+    SUB_SECTOR:"SUB_SECTOR",
+    SECTOR_CATEGORY:"SECTOR_CATEGORY"
+}

@@ -106,6 +106,7 @@
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+    cursor:pointer;
 }
 .check-in-alert-block{
     max-width: 330px;

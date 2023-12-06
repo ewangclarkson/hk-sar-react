@@ -1,0 +1,62 @@
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table th,
+.table td {
+    padding: 1rem 1.5rem;
+    vertical-align: top;
+    border-top: 1px solid #f2f4f5;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #f2f4f5;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #f2f4f5;
+}
+
+.table .table {
+    background-color: #f3f3f3;
+}
+
+.table thead th {
+    border-bottom-width: 1px;
+}
+
+.table tr[class*="table-"] td,
+.table tr[class*="table-"] th,
+.table tr[class*="table-"] + tr td,
+.table tr[class*="table-"] + tr th {
+    border: 0;
+}
+
+.table th {
+    font-weight: 500;
+}
+
+@media (max-width: 575.98px) {
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+}
+.login__block__btn {
+    margin-top: 0.5rem;
+}
+
+.login__block__btn, .login__block__btn:hover, .login__block__btn:focus {
+    color: #FFFFFF;
+}
+
+.login__block__btn:hover {
+    opacity: 0.9;
+}
