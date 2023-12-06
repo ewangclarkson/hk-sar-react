@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosApi = axios.create({
-    baseURL: "http://localhost:8080/hk-sar-service/",
+    baseURL: "https://hong-kong-sar.onrender.com/hk-sar-service/",
     headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',

@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64eccc37-69f4-4aba-99f5-d16b70d78152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/alert/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/alert/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/alert/Alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/assets/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkin/config/axios.client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkin/config/useFetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkin/context/CheckAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/constants/sectorlevels.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/Loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sector/AddSector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sector/DefaultSector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sector/EditSector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sector/SectorList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sector/SectorList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/alert/Alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/CheckIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkin/CheckIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkin/SignIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkin/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/checkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkin/checkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/context/CheckInContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkin/context/CheckInContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkin/config/axios.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkin/config/axios.client.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +112,8 @@
       <workItem from="1701715423919" duration="15295000" />
       <workItem from="1701769664855" duration="25085000" />
       <workItem from="1701798393831" duration="22618000" />
-      <workItem from="1701851727059" duration="128000" />
+      <workItem from="1701851727059" duration="1382000" />
+      <workItem from="1701857502724" duration="622000" />
     </task>
     <servers />
   </component>
