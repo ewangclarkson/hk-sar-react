@@ -3,28 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="64eccc37-69f4-4aba-99f5-d16b70d78152" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/CheckIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/SignIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/SignUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/checkin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/config/axios.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/providers/axios.client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/config/useFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/providers/useFetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/context/CheckAuth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkin/context/CheckInContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/NavBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sector/AddSector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sector/Sector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sector/DefaultSector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sector/SectorOperation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sector/EditSector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sector/SectorList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sector/SectorList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/providers/axios.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/providers/axios.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sector/Sector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sector/Sector.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +119,7 @@
       <workItem from="1701878243436" duration="8000" />
       <workItem from="1701880016314" duration="307000" />
       <workItem from="1701938082027" duration="9891000" />
-      <workItem from="1701975929798" duration="2702000" />
+      <workItem from="1701975929798" duration="5527000" />
     </task>
     <servers />
   </component>

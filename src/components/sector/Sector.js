@@ -17,7 +17,7 @@ const Sector = () => {
                     <form className="search">
                         <div className="search__inner">
                             <input type="text" className="search__text"
-                                   placeholder=""/>
+                                   placeholder="" disabled/>
                         </div>
                     </form>
                     {sessionStorage.getItem("userDetails") !== null ?

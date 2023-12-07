@@ -15,13 +15,13 @@ Clone this repository to your local machine:
 
 #####React Front End
 ```
-git clone https://github.com/ewangclarkson/hk-sar-react-authention.git
+git clone https://github.com/ewangclarkson/hk-sar-react.git
 ```
 
 
 #####Spring boot backend
 ```
-git clone https://github.com/ewangclarkson/hk-sar-spring-boot-authention.git
+git clone https://github.com/ewangclarkson/hk-sar-spring-boot.git
 ```
 
 ####Navigate to the project directory:
@@ -60,13 +60,8 @@ To access the application on line, visit the link https://hongkong-sar.vercel.ap
 ## Features
 The application includes the following features:
 
-### Authentication and Authorization
-   #####Acount Creation
-        Create an account if you don't have one
-   ##### Authentication
-        Login to your account with your credentials
 
-### Employee Sector Registration
+#### Employee Sector Registration
 The application is designed to adapt to different screen sizes and devices, providing a consistent user experience.
 
 #### Register Sector
