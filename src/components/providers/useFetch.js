@@ -21,7 +21,7 @@ const useFetch = ({url}) => {
     }, [url]);
 
     useEffect(() => {
-        fetchData();
+      fetchData();
     }, [url, fetchData]);
 
 
