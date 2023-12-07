@@ -1,72 +1,79 @@
+# Employee Sector Registration
+This repository contains a responsive React Application. The application allows users to fill out a form, select sectors, save the data to a database, and edit their own data during the session. The application is designed to be visually appealing and responsive on different devices and uses spring security for user authentication at the backend level
 
-# Getting Started with Create React App
+## Getting Started
+To get started with the application, follow the instructions below.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prerequisites
+Make sure you have the following software installed on your system and have cloned the spring boot backend version of this application:
 
-## Available Scripts
+``Node.js (version 20 or higher)``
 
-In the project directory, you can run:
+``NPM (Node Package Manager) or Yarn``
+###Installation
+Clone this repository to your local machine:
 
-### `npm start`
+#####React Front End
+```
+git clone https://github.com/ewangclarkson/hk-sar-react-authention.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#####Spring boot backend
+```
+git clone https://github.com/ewangclarkson/hk-sar-spring-boot-authention.git
+```
 
-### `npm test`
+####Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd hk-sar-react
+```
 
-### `npm run build`
+###Install the dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###Or
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn install
+```
+###Usage
+Start the development server:
 
-### `npm run eject`
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###or
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn start
+```
+###Access The Application
+Open your web browser and visit http://localhost:3000 to access the application.
+To access the application on line, visit the link https://hongkong-sar.vercel.app/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
+The application includes the following features:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Authentication and Authorization
+   #####Acount Creation
+        Create an account if you don't have one
+   ##### Authentication
+        Login to your account with your credentials
 
-## Learn More
+### Employee Sector Registration
+The application is designed to adapt to different screen sizes and devices, providing a consistent user experience.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Register Sector
+ Employees are required to enter their sectors information and register or edit if the already are under one;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+##License
+This project is licensed under the MIT license.
