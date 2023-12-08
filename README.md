@@ -10,50 +10,50 @@ Make sure you have the following software installed on your system and have clon
 ``Node.js (version 20 or higher)``
 
 ``NPM (Node Package Manager) or Yarn``
-###Installation
+### Installation
 Clone this repository to your local machine:
 
-#####React Front End
+##### React Front End
 ```
 git clone https://github.com/ewangclarkson/hk-sar-react.git
 ```
 
 
-#####Spring boot backend
+##### Spring boot backend
 ```
 git clone https://github.com/ewangclarkson/hk-sar-spring-boot.git
 ```
 
-####Navigate to the project directory:
+#### Navigate to the project directory:
 
 ```
 cd hk-sar-react
 ```
 
-###Install the dependencies:
+### Install the dependencies:
 
 ```
 npm install
 ```
 
-###Or
+### Or
 
 ```
 yarn install
 ```
-###Usage
+### Usage
 Start the development server:
 
 ```
 npm start
 ```
 
-###or
+### or
 
 ```
 yarn start
 ```
-###Access The Application
+### Access The Application
 Open your web browser and visit http://localhost:3000 to access the application.
 To access the application on line, visit the link https://hongkong-sar.vercel.app/
 
@@ -67,8 +67,8 @@ The application is designed to adapt to different screen sizes and devices, prov
 #### Register Sector
  Employees are required to enter their sectors information and register or edit if the already are under one;
 
-##Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT license.
