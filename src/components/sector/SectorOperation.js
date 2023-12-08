@@ -22,6 +22,7 @@ const SectorOperation = ({isEdit}) => {
     const [isError, setIsError] = useState(false);
     const [success, setSuccess] = useState(false);
     const [message, setMessage] = useState("");
+    const [edit,setEdit] = useState(isEdit);
 
 
     //Build the user selected options and default options
@@ -94,7 +95,7 @@ const SectorOperation = ({isEdit}) => {
         const user = getSessionUser();
 
         return (validateInput() ? (
-                !isEdit ?
+                !edit ?
                     await createSector({
                         name: sectors.name.trim(),
                         sectors: sectors.sectors,
@@ -135,6 +136,7 @@ const SectorOperation = ({isEdit}) => {
             setIsLoading(false)
             setMessage("Your sector registration was successful");
             setSuccess(true);
+            setEdit(true);
         } catch (error) {
             setIsError(true);
             setMessage("An unexpected error occurs while adding your selected sector information")
@@ -156,6 +158,7 @@ const SectorOperation = ({isEdit}) => {
             setIsLoading(false);
             setMessage("Your sector registration update was successful");
             setSuccess(true);
+            setEdit(true);
         } catch (error) {
             setIsError(true);
             setMessage("An unexpected error occurs while updating your sector information")
@@ -175,7 +178,7 @@ const SectorOperation = ({isEdit}) => {
 
     return (
         <div>
-            <h4 className="card-title">{isEdit ? "Edit Sector" : "Sector Registration"}</h4>
+            <h4 className="card-title">{edit ? "Edit Sector" : "Sector Registration"}</h4>
             <Alert className="alert alert-danger"
                    message={message}
                    show={isError} reset={setIsError}/>
@@ -215,7 +218,7 @@ const SectorOperation = ({isEdit}) => {
                 <br/>
                 {isLoading ? <Loader className="center"/> : ''}
                 <br/>
-                <button type="submit" className="btn login__block__btn text-white">{isEdit ? "Edit" : "Save"}</button>
+                <button type="submit" className="btn login__block__btn text-white">{edit ? "Edit" : "Save"}</button>
             </form>
         </div>
     );
